@@ -1,0 +1,119 @@
+.text-translate {
+  min-height: calc(100vh - 140px);
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.page-header {
+  text-align: center;
+
+  h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+
+  p {
+    margin-top: 0.5rem;
+    opacity: 0.8;
+  }
+}
+
+.translator-card {
+  width: 100%;
+  max-width: 900px;
+  background: var(--card);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.language-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  select {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: inherit;
+    font-weight: 600;
+  }
+
+  .swap {
+    border: none;
+    background: linear-gradient(135deg, #22c55e, #3b82f6);
+    color: white;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: rotate(180deg) scale(1.05);
+    }
+  }
+}
+
+.text-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  textarea {
+    min-height: 220px;
+    resize: none;
+    padding: 1rem;
+    border-radius: 16px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: inherit;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+.translate-btn {
+  margin-top: 0.5rem;
+  align-self: center;
+  padding: 0.8rem 2.8rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(135deg, #22c55e, #3b82f6);
+  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(59, 130, 246, 0.45);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .text-area {
+    grid-template-columns: 1fr;
+  }
+}
