@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MultiMian TranslateX
 
-## Getting Started
+![MultiMian TranslateX Logo](logo.png) <!-- Optional: Add your logo -->
 
-First, run the development server:
+**MultiMian TranslateX** is a powerful and easy-to-use tool to translate text and files into multiple languages. It is designed for developers, students, and content creators who need fast, accurate translations with a sleek UI.
 
+---
+
+## 🌟 Features
+
+- Translate **text** in real-time to multiple languages.
+- Translate **files** and download the translated version.
+- Simple and intuitive **user interface**.
+- Dark/Light mode support.
+- Progress bar for translation.
+- Multi-language support.
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend:** React.js / Next.js / HTML, CSS, JS (depending on your setup)
+- **Backend:** Node.js / API-based translation (if applicable)
+- **Deployment:** GitHub Pages / Vercel / Netlify
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
 ```bash
-npm run dev
+git clone https://github.com/Mianhassam96/MultiMian-TranslateX.git
+cd MultiMian-TranslateX
+Install dependencies (for React/Next.js)
+npm install
+
+Run locally
+npm start   # React
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm run dev # Next.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📦 Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+For GitHub Pages (React):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run build
+npm install gh-pages --save-dev
+npm run deploy
 
-## Learn More
+📝 Usage
 
-To learn more about Next.js, take a look at the following resources:
+Enter the text you want to translate.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Select the target language.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Click Translate to see the result.
 
-## Deploy on Vercel
+For files, upload your document and download the translated version.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See the LICENSE
+ file for details.
+
+📫 Contact
+
+GitHub: Mianhassam96
+
+Email: mianhassam96@gmail.com
+
+
+
+
+
+
