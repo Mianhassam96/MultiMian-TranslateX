@@ -13,7 +13,7 @@ export default function Navbar() {
         <span className="multi">Multi</span>
         <span className="mian">Mian</span>
         <span className="x">X</span>
-      </Link>
+      </Link> 
 
       <div className="links">
         <Link href="/">Home</Link>
