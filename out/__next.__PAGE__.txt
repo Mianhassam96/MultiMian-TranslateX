@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/MultiMian-TranslateX/_next/static/chunks/ff1a16fafef87110.js","/MultiMian-TranslateX/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+:HL["/MultiMian-TranslateX/_next/static/chunks/68f0062e46a7209d.css","style"]
+0:{"buildId":"Ytr75ziTtR_zjngmUfMvK","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"home","children":["$","section",null,{"className":"hero","children":[["$","h1",null,{"children":["Translate Anything ",["$","br",null,{}],["$","span",null,{"children":"Instantly & Smartly"}]]}],["$","p",null,{"children":"MultiMian TranslateX lets you translate text, voice, and files using modern AI — fast, accurate, and beautiful."}],["$","div",null,{"className":"actions","children":[["$","a",null,{"href":"/translate","className":"primary","children":"Start Translating"}],["$","a",null,{"href":"/voice","className":"secondary","children":"Try Voice"}]]}]]}]}],[["$","link","0",{"rel":"stylesheet","href":"/MultiMian-TranslateX/_next/static/chunks/68f0062e46a7209d.css","precedence":"next"}]],["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+4:null
