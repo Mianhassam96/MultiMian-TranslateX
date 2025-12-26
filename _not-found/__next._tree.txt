@@ -1,0 +1,2 @@
+:HL["/MultiMian-TranslateX/_next/static/chunks/81b22494c287c158.css","style"]
+0:{"buildId":"bzEZaf0X53UPEBQlPl67E","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"/_not-found","paramType":null,"paramKey":"/_not-found","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
